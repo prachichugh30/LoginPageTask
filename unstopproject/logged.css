@@ -1,0 +1,74 @@
+
+body {
+    font-family: 'Poppins';
+    background-color: #f9f9f9;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+h2{
+    color: #5432c7;
+}
+
+.brand {
+    color: #5f3cfa;
+    font-weight: 900px;
+    font-size: 46px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   
+    padding: 20px;
+    width: 300px;
+    margin: 113px;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.name {
+    font-size: 1.2rem;
+    color: #5432c7;
+    margin: 10px 0 5px;
+}
+
+.email, .gender {
+    font-size: 0.9rem;
+    color: black;
+    margin: 2px 2px;
+}
+
+.logout-btn {
+    margin-top: 20px;
+    background-color: #6a4cf5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: #5432c7;
+}

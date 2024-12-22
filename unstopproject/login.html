@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="illustration">
+            <img src="images/unstopsidelogo.png" alt="Lock Icon">
+        </div>
+        <form id="login-form">
+            <h2>Welcome to </h2>
+            <h2><span class="brand-name">Unstop</span></h2>
+            <div class="social-login">
+                <button type="button" class="google-login" style="padding-bottom:15px">
+              <img src="images/Frame 1116607310.png" class="googleicon" alt="google-icon"> Login with Google
+                </button>
+                <button type="button" class="facebook-login" style="padding-bottom: 15px">
+                   <img src="images/Vector (1).png" class="facebookicon" alt="facebook-icon">  Login with Facebook
+                </button>
+            </div>
+            <table width="100%">
+                <tr>
+                  <td><hr /></td>
+                  <td style="width:1px; padding: 0 10px; white-space: nowrap;"> OR </td>
+                  <td><hr /></td>
+                </tr>
+              </table>
+            <div class="input-group">
+                <input type="text"  name="username" placeholder="username" id="username" class="abc"  required>
+                <label for="username">User name</label>
+                
+            </div>
+            <div class="input-group">
+                <input type="email"  name="email" id="email" placeholder="username@gmail.com" class="bcd" required>
+                <label for="email">Email</label>
+            </div>
+            <div class="input-group">
+                <input type="password"  name="password" id="password" placeholder="***********" class="xyz" required>
+                <label for="password">Password</label>
+            </div>
+        
+            <div class="options">
+                <label>
+                    <input type="checkbox" style= "background-color:#E2E2E2" id="remember-me" name="remember-me"> Remember me
+                </label>
+                <a href="#" class="forgot-password">Forgot Password?</a>
+            </div>
+            <button type="submit" class="login-btn">Login</button>
+            <p class="register-link">Don't have an account? <a href="#">Register</a></p>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
