@@ -51,7 +51,7 @@ body {
     min-width: 300px;
 }
 
-.login-form h2 {
+#login-form h2 {
     font-size: 24px;
     margin-bottom: 20px;
 }
